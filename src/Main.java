@@ -22,5 +22,9 @@ public class Main {
         estudiantePresencial1.MostrarInfo();
         estudiantePresencial1.calcularEdad();
 
+        DocenteLinea docente2 = new DocenteLinea("1341241221", "Yadira", "Politecnica", "yadira@gmail.com", "Tecnologos", 6,"Nombramiento");
+        System.out.println("---------------------------------------");
+        System.out.println("Docente Linea");
+        docente2.MostrarInfo();
     }
 }

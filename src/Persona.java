@@ -14,6 +14,12 @@ public class Persona {
         this.correo = correo;
         this.telefono = telefono;
     }
+    public Persona(String cedula, String nombre, String direccion, String correo){
+        this.cedula = cedula;
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.correo = correo;
+    }
 
     public void MostrarInfo(){
         System.out.println("Cedula: " + cedula);

@@ -8,6 +8,12 @@ public class Docente extends Persona {
         this.HorasAsignadas = HorasAsignadas;
     }
 
+    public Docente(String cedula, String nombre, String direccion, String correo, String FacultadPertenece, int HorasAsignadas) {
+        super(cedula, nombre, direccion, correo);
+        this.FacultadPertenece = FacultadPertenece;
+        this.HorasAsignadas = HorasAsignadas;
+    }
+
     @Override
     public void MostrarInfo() {
         super.MostrarInfo();
